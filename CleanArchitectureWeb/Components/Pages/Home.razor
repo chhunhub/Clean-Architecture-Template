@@ -1,0 +1,74 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+@using System.ComponentModel.DataAnnotations
+@using CleanArchitectureWeb.Application.CreateCustomer
+@using MediatR
+@inject ISender sender
+<EditForm Model="@user" FormName="Customer" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label>First Name</label>
+        <InputText class="form-control" @bind-Value="user.FirstName" />
+        <ValidationMessage For="@(() => user.FirstName)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Last Name</label>
+        <InputText class="form-control" @bind-Value="user.LastName" />
+        <ValidationMessage For="@(() => user.LastName)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email</label>
+        <InputText class="form-control" @bind-Value="user.Email" />
+        <ValidationMessage For="@(() => user.Email)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Address</label>
+        <InputText class="form-control" @bind-Value="user.Address" />
+        <ValidationMessage For="@(() => user.Address)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Phone Number</label>
+        <InputText class="form-control" @bind-Value="user.PhoneNumber" />
+        <ValidationMessage For="@(() => user.PhoneNumber)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+@if (submitted)
+{
+    <div class="alert alert-success mt-3">Form submitted successfully!</div>
+}
+
+@code {
+    private UserInputModel user =new();
+    private bool submitted;
+    private CancellationTokenSource cancellationTokenSource = new();
+    private async Task HandleValidSubmit()
+    {
+        var senderCustomer = await sender.Send(new CreateCustomerCommand(user.FirstName, user.LastName, user.Email, user.Address, user.PhoneNumber));
+       
+        submitted = true;
+    }
+
+    public class UserInputModel
+    {
+
+        public string FirstName { get; set; } 
+
+        public string LastName { get; set; } 
+
+        public string Email { get; set; } 
+
+        public string Address { get; set; } 
+        public string PhoneNumber { get; set; } 
+    }
+}

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Free-Template\\Clean-Architecture-Template\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\cleanarchitecturedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\cleanarchitecturedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\domain\\entities\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\domain\\entities\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\application\\getcustomerlist\\getcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\application\\getcustomerlist\\getcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\application\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\application\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\domain\\domainevent\\createcustomerdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\domain\\domainevent\\createcustomerdomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|c:\\free-template\\clean-architecture-template\\cleanarchitectureweb\\application\\getcustomerlist\\getcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C04A86-02D4-485A-A5D1-3F639E38FC12}|CleanArchitectureWeb\\CleanArchitectureWeb.csproj|solutionrelative:cleanarchitectureweb\\application\\getcustomerlist\\getcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CleanArchitectureDbContext.cs",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\CleanArchitectureDbContext.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\CleanArchitectureDbContext.cs",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\CleanArchitectureDbContext.cs",
+              "RelativeToolTip": "CleanArchitectureWeb\\CleanArchitectureDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:31:56.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhoneNumber.cs",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Domain\\Entities\\PhoneNumber.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\Domain\\Entities\\PhoneNumber.cs",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Domain\\Entities\\PhoneNumber.cs",
+              "RelativeToolTip": "CleanArchitectureWeb\\Domain\\Entities\\PhoneNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:24:18.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateCustomerCommandHandler.cs",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Application\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\Application\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Application\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeToolTip": "CleanArchitectureWeb\\Application\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:12:27.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCustomerDomainEvent.cs",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Domain\\DomainEvent\\CreateCustomerDomainEvent.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\Domain\\DomainEvent\\CreateCustomerDomainEvent.cs",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Domain\\DomainEvent\\CreateCustomerDomainEvent.cs",
+              "RelativeToolTip": "CleanArchitectureWeb\\Domain\\DomainEvent\\CreateCustomerDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:10:51.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\appsettings.Development.json",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\appsettings.Development.json",
+              "RelativeToolTip": "CleanArchitectureWeb\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T12:04:17.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "CleanArchitectureWeb\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T11:57:49.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetCustomerQueryHandler.cs",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQueryHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQueryHandler.cs",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQueryHandler.cs",
+              "RelativeToolTip": "CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:53:30.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "CleanArchitectureWeb\\Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:43:41.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetCustomerQuery.cs",
+              "DocumentMoniker": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQuery.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQuery.cs",
+              "ToolTip": "C:\\Free-Template\\Clean-Architecture-Template\\CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQuery.cs",
+              "RelativeToolTip": "CleanArchitectureWeb\\Application\\GetCustomerList\\GetCustomerQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:42:51.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

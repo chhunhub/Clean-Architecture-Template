@@ -1,22 +1,16 @@
 using CleanArchitectureWeb;
 using CleanArchitectureWeb.Components;
-using CleanArchitectureWeb.Domain.Abstractions;
 using CleanArchitectureWeb.Domain.Repositories;
 using CleanArchitectureWeb.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using SharedKernel;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 var configuration = builder.Configuration;
-//mediatR
-builder.Services.AddMediatR(options =>
-{
-    options.RegisterServicesFromAssembly(typeof(Program).Assembly);
-    //We can add any pipeline in here
-});
-
+builder.Services.AddMediatorR(typeof(Program).Assembly);
 //Inject DbContext
 string connectionString = configuration.GetConnectionString("DataBase")!;
 builder.Services.AddDbContext<CleanArchitectureDbContext>(configure =>

@@ -1,13 +1,12 @@
-﻿using CleanArchitectureWeb.Domain.Abstractions;
-using CleanArchitectureWeb.Domain.Entities;
+﻿using CleanArchitectureWeb.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using SharedKernel;
 
 namespace CleanArchitectureWeb;
 public sealed class CleanArchitectureDbContext : DbContext, IUnitOfWork
 {
     public CleanArchitectureDbContext(DbContextOptions options) : base(options)
     {
-
     }
     public DbSet<Customer> Customers { get; set; }
 

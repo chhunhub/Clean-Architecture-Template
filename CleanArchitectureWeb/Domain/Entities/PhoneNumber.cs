@@ -6,7 +6,7 @@ public sealed record PhoneNumber(string phoneNumber)
     public string Value => IsValid(phoneNumber) ? phoneNumber : throw new ApplicationException("Your phonenumber is not match!");
     private static bool IsValid(string value)
     {
-        return Regex.IsMatch(value, @"^\+?[1-9]\d{9,14}$");
+        return Regex.IsMatch(value, @"^(0|\+)[1-9]\d{8,13}$");
     }
 
 }
